@@ -1,10 +1,10 @@
-# React Practice 🚀
+# React Practice
 
 This repository contains my React.js practice projects built while learning React and Vite.
 
 ## Projects
 
-### 📌 Cards
+### Cards
 
 A simple React project to practice:
 
