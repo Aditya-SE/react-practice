@@ -1,16 +1,92 @@
-# React + Vite
+# Lottery Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Lottery Game built with **React** that generates a random lottery ticket every time the user clicks the **Buy New Ticket** button. If the sum of all ticket numbers matches the winning sum, the user wins!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generates random lottery tickets
+- Displays ticket numbers using reusable components
+- Checks if the ticket is a winning ticket
+- Built using React functional components and Hooks
+- Uses reusable helper functions for ticket generation and sum calculation
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+│── App.jsx
+│── Lottery.jsx
+│── Ticket.jsx
+│── TicketNum.jsx
+│── helper.js
+│── App.css
+│── Lottery.css
+│── TicketNum.css
+```
+
+## How It Works
+
+1. A random ticket is generated when the app loads.
+2. Each ticket contains random digits (0–9).
+3. Clicking **Buy New Ticket** generates a new ticket.
+4. If the sum of the ticket numbers equals the winning sum, a winning message is displayed.
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+### Navigate to the project
+
+```bash
+cd your-repository-name
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## Concepts Practiced
+
+- React Components
+- Props
+- State (`useState`)
+- Event Handling
+- Conditional Rendering
+- Array Mapping
+- Reusable Components
+- Helper Functions
+
+## Future Improvements
+
+- Allow users to choose the number of ticket digits.
+- Add difficulty levels.
+- Display ticket history.
+- Add animations and sound effects.
+- Keep track of wins and losses.
+
+⭐ If you found this project helpful, consider giving the repository a star!
