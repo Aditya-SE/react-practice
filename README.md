@@ -1,10 +1,10 @@
-# React Practice
+# React Practice 🚀
 
 This repository contains my React.js practice projects built while learning React and Vite.
 
 ## Projects
 
-### Cards
+### 📌 Cards
 
 A simple React project to practice:
 
@@ -23,6 +23,19 @@ A React Todo List application to practice:
 - Conditional Rendering
 - Lists & Keys
 
+### 🎲 Lottery
+
+A React Lottery application to practice:
+
+- React Components
+- useState Hook
+- Props
+- Event Handling
+- Random Number Generation
+- Conditional Rendering
+- Dynamic Rendering
+- Helper Functions
+
 ## Tech Stack
 
 - React.js
@@ -36,6 +49,10 @@ A React Todo List application to practice:
 ```
 react-practice/
 ├── cards/
+│   ├── src/
+│   ├── public/
+│   └── ...
+├── lottery/
 │   ├── src/
 │   ├── public/
 │   └── ...
@@ -65,6 +82,12 @@ or
 cd todoList
 ```
 
+or
+
+```bash
+cd lottery
+```
+
 Install dependencies:
 
 ```bash
@@ -86,4 +109,4 @@ npm run dev
 
 ---
 
-⭐ This repository will continue to grow as I build more React practice projects. ⭐
+⭐ This repository will continue to grow as I build more React practice projects.
