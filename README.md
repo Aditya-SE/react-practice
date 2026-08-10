@@ -36,6 +36,19 @@ A React Lottery application to practice:
 - Dynamic Rendering
 - Helper Functions
 
+### 💬 Comment Section
+
+A React Comment Section application to practice:
+
+- React Components
+- useState Hook
+- Props
+- Event Handling
+- Form Handling
+- Controlled Components
+- State Management
+- Dynamic Rendering
+
 ## Tech Stack
 
 - React.js
@@ -57,6 +70,10 @@ react-practice/
 │   ├── public/
 │   └── ...
 ├── todoList/
+│   ├── src/
+│   ├── public/
+│   └── ...
+├── comment section/
 │   ├── src/
 │   ├── public/
 │   └── ...
@@ -86,6 +103,12 @@ or
 
 ```bash
 cd lottery
+```
+
+or
+
+```bash
+cd "comment section"
 ```
 
 Install dependencies:
