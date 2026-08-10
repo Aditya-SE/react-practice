@@ -108,7 +108,7 @@ cd lottery
 or
 
 ```bash
-cd "comment section"
+cd comment section
 ```
 
 Install dependencies:
