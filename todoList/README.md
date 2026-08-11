@@ -1,3 +1,21 @@
+# React Todo List
+
+A simple **Todo List application** built with React.js while practicing the fundamentals of React.
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- HTML
+
+## Purpose
+
+This project is part of my **React.js practice** while learning and strengthening my understanding of React fundamentals.
+
+**Built while learning React.js **
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
