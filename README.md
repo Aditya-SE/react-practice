@@ -49,6 +49,19 @@ A React Comment Section application to practice:
 - State Management
 - Dynamic Rendering
 
+### 🌤️ Weather App
+
+A React Weather application to practice:
+
+- React Components
+- useState Hook
+- API Integration
+- Asynchronous Data Fetching
+- Environment Variables
+- Form Handling
+- Error Handling
+- Dynamic Rendering
+
 ## Tech Stack
 
 - React.js
@@ -59,7 +72,7 @@ A React Comment Section application to practice:
 
 ## Project Structure
 
-```
+```text
 react-practice/
 ├── cards/
 │   ├── src/
@@ -74,6 +87,10 @@ react-practice/
 │   ├── public/
 │   └── ...
 ├── comment section/
+│   ├── src/
+│   ├── public/
+│   └── ...
+├── WeatherApp/
 │   ├── src/
 │   ├── public/
 │   └── ...
@@ -108,7 +125,13 @@ cd lottery
 or
 
 ```bash
-cd comment section
+cd "comment section"
+```
+
+or
+
+```bash
+cd WeatherApp
 ```
 
 Install dependencies:
